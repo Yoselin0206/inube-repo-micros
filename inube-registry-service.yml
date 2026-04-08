@@ -9,7 +9,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-    server:
+  server:
       wait-time-in-ms-when-sync-empty: 0
 
 management:
@@ -23,6 +23,6 @@ management:
 
 logging:
   level:
-  org.springframework.cloud.config: DEBUG
-  org.springframework.security: DEBUG
-  org.springframework.web.reactive.function.client.ExchangeFunctions: DEBUG
+   org.springframework.cloud.config: DEBUG
+   org.springframework.security: DEBUG
+   org.springframework.web.reactive.function.client.ExchangeFunctions: DEBUG
