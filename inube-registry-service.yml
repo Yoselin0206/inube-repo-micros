@@ -4,9 +4,6 @@ server:
 spring:
   application:
     name: inube-registry-service
-  cloud:
-    config:
-      enabled: false   # 🔴 DESACTIVA Config Server (soluciona tu error)
 
 eureka:
   client:
@@ -19,10 +16,10 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: "*"  
   endpoint:
     health:
-      show-details: always
+      show-details: always  
 
 logging:
   level:
